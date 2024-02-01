@@ -9,43 +9,6 @@ import Foundation
 import SwiftUI
 import Charts
 
-
-enum LineChartState {
-    case increasing
-    case decreasing
-    case neutral
-}
-
-extension LineChartState {
-    var color: Color {
-        switch self {
-        case .increasing:
-            return .increasingColor
-        case .decreasing:
-            return .decreasingColor
-        case .neutral:
-            return .neutralColor
-        }
-    }
-}
-
-struct XAxisRange {
-    let minimumX: Double
-    let maximumX: Double
-}
-
-struct YAxisRange {
-    let minimumY: Double
-    let maximumY: Double
-}
-
-struct LineChartData {
-    let chartState: LineChartState
-    let entries: [LineEntry]
-    let scaleX: XAxisRange
-    let scaleY: YAxisRange
-}
-
 struct LineChartView: View {
     @State private var fingersPosition = FingersPosition()
     @State private var subChartState: LineChartState?
