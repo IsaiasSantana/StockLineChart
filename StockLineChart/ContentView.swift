@@ -9,7 +9,7 @@ import SwiftUI
 import Charts
 
 struct ContentView: View {
-    @State private var chartData: LineChartData?
+    @State private var chartData: ChartData?
     
     var body: some View {
         ZStack {

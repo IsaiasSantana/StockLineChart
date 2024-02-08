@@ -16,6 +16,9 @@
 		07261B6C2B6A7C6500C76DBA /* LineChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07261B6B2B6A7C6500C76DBA /* LineChartDataProvider.swift */; };
 		07261B6E2B6A918500C76DBA /* FingersPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07261B6D2B6A918500C76DBA /* FingersPosition.swift */; };
 		07261B702B6ABF8800C76DBA /* MultiTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07261B6F2B6ABF8800C76DBA /* MultiTouchView.swift */; };
+		073A54732B7469F100D1048B /* CandleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A54722B7469F100D1048B /* CandleEntry.swift */; };
+		073A54752B746A4E00D1048B /* BarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A54742B746A4E00D1048B /* BarEntry.swift */; };
+		073A54772B74729400D1048B /* CandleEntry+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A54762B74729400D1048B /* CandleEntry+Colors.swift */; };
 		077F73872B6B45B800CC3A66 /* RangeTwoFingersGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F73862B6B45B800CC3A66 /* RangeTwoFingersGestureRecognizer.swift */; };
 		077F73892B6B463C00CC3A66 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F73882B6B463C00CC3A66 /* TouchView.swift */; };
 		077F738C2B6B476B00CC3A66 /* Color+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F738B2B6B476B00CC3A66 /* Color+Colors.swift */; };
@@ -38,6 +41,9 @@
 		07261B6B2B6A7C6500C76DBA /* LineChartDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartDataProvider.swift; sourceTree = "<group>"; };
 		07261B6D2B6A918500C76DBA /* FingersPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingersPosition.swift; sourceTree = "<group>"; };
 		07261B6F2B6ABF8800C76DBA /* MultiTouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTouchView.swift; sourceTree = "<group>"; };
+		073A54722B7469F100D1048B /* CandleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleEntry.swift; sourceTree = "<group>"; };
+		073A54742B746A4E00D1048B /* BarEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarEntry.swift; sourceTree = "<group>"; };
+		073A54762B74729400D1048B /* CandleEntry+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CandleEntry+Colors.swift"; sourceTree = "<group>"; };
 		077F73862B6B45B800CC3A66 /* RangeTwoFingersGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeTwoFingersGestureRecognizer.swift; sourceTree = "<group>"; };
 		077F73882B6B463C00CC3A66 /* TouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchView.swift; sourceTree = "<group>"; };
 		077F738B2B6B476B00CC3A66 /* Color+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Colors.swift"; sourceTree = "<group>"; };
@@ -120,6 +126,8 @@
 				07F2E50D2B6BB03F00374B1E /* XAxisRange.swift */,
 				07F2E50F2B6BB05600374B1E /* YAxisRange.swift */,
 				07F2E5112B6BB06B00374B1E /* LineChartData.swift */,
+				073A54722B7469F100D1048B /* CandleEntry.swift */,
+				073A54742B746A4E00D1048B /* BarEntry.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -145,6 +153,7 @@
 			children = (
 				077F738B2B6B476B00CC3A66 /* Color+Colors.swift */,
 				07F2E5132B6BB08800374B1E /* LineChartState+Colors.swift */,
+				073A54762B74729400D1048B /* CandleEntry+Colors.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -223,6 +232,8 @@
 				07F2E5122B6BB06B00374B1E /* LineChartData.swift in Sources */,
 				07261B692B6A7BC100C76DBA /* LineEntry.swift in Sources */,
 				07F2E50C2B6BB02700374B1E /* LineChartState.swift in Sources */,
+				073A54772B74729400D1048B /* CandleEntry+Colors.swift in Sources */,
+				073A54732B7469F100D1048B /* CandleEntry.swift in Sources */,
 				07261B592B67ED9000C76DBA /* ContentView.swift in Sources */,
 				07261B572B67ED9000C76DBA /* StockLineChartApp.swift in Sources */,
 				077F738C2B6B476B00CC3A66 /* Color+Colors.swift in Sources */,
@@ -230,6 +241,7 @@
 				07F2E50E2B6BB03F00374B1E /* XAxisRange.swift in Sources */,
 				07F2E5102B6BB05600374B1E /* YAxisRange.swift in Sources */,
 				07261B6C2B6A7C6500C76DBA /* LineChartDataProvider.swift in Sources */,
+				073A54752B746A4E00D1048B /* BarEntry.swift in Sources */,
 				077F73872B6B45B800CC3A66 /* RangeTwoFingersGestureRecognizer.swift in Sources */,
 				07261B6E2B6A918500C76DBA /* FingersPosition.swift in Sources */,
 				077F73892B6B463C00CC3A66 /* TouchView.swift in Sources */,

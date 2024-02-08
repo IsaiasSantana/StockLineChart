@@ -13,3 +13,9 @@ struct LineChartData {
     let scaleX: XAxisRange
     let scaleY: YAxisRange
 }
+
+struct ChartData {
+    let lineData: LineChartData
+    let candleData: [CandleEntry]
+    let barData: [BarEntry]
+}
